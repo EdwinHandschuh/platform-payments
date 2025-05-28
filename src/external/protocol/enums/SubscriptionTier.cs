@@ -1,11 +1,13 @@
 using System.ComponentModel;
 using System.Runtime.Serialization;
+using System.Text.Json.Serialization;
 
 namespace platform.payments.external.protocol.enums;
 
 /// <summary>
 /// Represents the available subscription tiers for licensed software access.
 /// </summary>
+[JsonConverter(typeof(JsonStringEnumConverter))]
 public enum SubscriptionTier
 {
     /// <summary>
