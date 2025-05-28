@@ -1,0 +1,16 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Valid property variable names -->
+    <NewtonsoftJson>13.0.3</NewtonsoftJson>
+
+    <MicrosoftAspNetCoreMvcCore>2.3.0</MicrosoftAspNetCoreMvcCore>
+    <MicrosoftAspNetCoreMvcAbstractions>2.3.0</MicrosoftAspNetCoreMvcAbstractions>
+  </PropertyGroup>
+
+</Project>

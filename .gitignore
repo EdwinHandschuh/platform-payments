@@ -1,0 +1,65 @@
+
+# Ignore build output and user-specific files
+**/bin/
+**/obj/
+artifacts/
+.vs/
+*.user
+*.suo
+*.pdb
+*.cache
+*.log
+.vscode/
+*.DS_Store
+*.swp
+.idea/
+*.userosscache
+*.sln.docstates
+
+# Dotnet CLI cache
+*.db
+project.lock.json
+project.fragment.lock.json
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.psmdcp
+*.symbols.nupkg
+
+# Ignore test results
+TestResult*/
+*.coverage
+*.coveragexml
+*.lcov
+*.trx
+
+# Ignore IDE settings
+.idea/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore other system files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.bak
+*.cache
+
+# Ignore TemporaryTests
+**/TemporaryTests.cs
+
+# sample logs
+src/SampleApps/logs
+*.log
+
+# temporary tests
+**/Zzz
+
