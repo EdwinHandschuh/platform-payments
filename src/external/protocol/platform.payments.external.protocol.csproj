@@ -1,4 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
+
+  <ProjectGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </ProjectGroup>
+
   <ItemGroup>
     <Folder Include="responses\" />
     <Folder Include="requests\" />
